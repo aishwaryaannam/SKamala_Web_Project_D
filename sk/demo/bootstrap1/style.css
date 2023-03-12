@@ -1,0 +1,137 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+.logo-img{
+    border-radius: 50%;
+    margin-top: -5px;
+    box-shadow: 0 0 3px black;
+}
+
+
+body{
+    font-family: 'Ibarra Real Nova', serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+
+
+}
+
+
+.bg-teal, btn-tneal{
+    background-color: #27DDDE!important;
+}
+.text-teal{
+    color: #27DDDE!important;
+}
+
+/*landing page */
+
+.landing-section{
+    background: white url(../imgs/bg-image.jpg) no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+
+
+}
+
+.landing-wrapper
+{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+.landing-wrapper{
+    font-size:60px;
+}
+
+.landing-wrapper{
+    font-size:20px;
+}
+
+.fa-play-circle{
+    color: #27DDDE!important;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    animation: glow-icon 0.5s infinite linear;
+
+}
+@keyframes glow-icon{
+    0% , 100%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.07,1.07);
+        box-shadow: 0 0 10px white;
+        border: 2px dotted white;
+    }
+}
+
+.intro-icon{
+    background-color: black;
+    color: #27DDDE;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 0 0 3px black;
+}
+
+.bg-dark{
+    background: linear-gradient(45deg,black,darkslategrey)!important;
+
+
+}
+
+.gallery-img{
+    border-radius: 50px;
+    border: 5px solid #27DDDE !important;
+    box-shadow: 0 0 10px black;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top:40px;
+}
+
+.gallery-img:hover{
+    transform: scale(1.05,1.05);
+}
+.btn{
+    border-radius: 50px;
+}
+.btn-outline-white
+{
+    border:2px solid #27DDDE !important;
+
+}
+.btn-outline-white:hover
+{
+    border:2px solid #27DDDE  !important;
+    color: #27DDDE!important;
+    box-shadow: 0 0 10px #27DDDE !important;
+
+}
+
+.trainer-img{
+    box-shadow:  0 0 10px #27DDDE;
+    margin-top: -50px;
+
+}
+.trainer-card{
+    margin-top: 50px;
+    border-radius: 10px !important;
+    transition: all 0.5s;
+    background-color: #27DDDE;
+
+}
+.trainer-card:hover{
+transform: translateY(-20px);
+background: linear-gradient(45deg,black,darkslategrey)!important;
+color:#27DDDE !important;
+
+}
+.google-map{
+    border-radius: 10px;
+    height: 400px;
+    width:550px;
+    margin-left: -70px;
+    box-shadow: 0 0 10px black;
+}
